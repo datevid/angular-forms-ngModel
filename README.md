@@ -3,13 +3,9 @@
 ## Uso de binding en un formulario con la actualizacion de stanalone:true
 app.component.html
 ```html
-<form>
-    <label for="variable1">
-        <input type="text" [(ngModel)]="variable1" 
-        [ngModelOptions]="{standalone: true}">
-    </label>
-    {{variable1}}
-</form>
+<input type="text" [(ngModel)]="variable1" 
+    [ngModelOptions]="{standalone: true}">
+<p>{{variable1}}</p>
 ```
 app.component.ts
 ```ts
