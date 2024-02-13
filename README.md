@@ -2,7 +2,7 @@
 
 ## Uso de binding en un formulario con la actualizacion de stanalone:true
 app.component.html
-```htmls
+```html
 <form>
     <label for="variable1">
         <input type="text" [(ngModel)]="variable1" 
